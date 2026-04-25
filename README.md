@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Inza Iqbal — Machine Learning Engineer</title>
+<title>Inza Iqbal — GitHub README Preview</title>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -19,9 +19,6 @@
     --accent: #5a50e0;
     --accent2: #1a9e6e;
     --accent3: #e07a2f;
-    --python: #3572A5;
-    --jupyter: #DA5B0B;
-    --js: #b8960a;
   }
 
   html { scroll-behavior: smooth; }
@@ -35,7 +32,6 @@
     min-height: 100vh;
   }
 
-  /* BACKGROUND GRID */
   body::before {
     content: '';
     position: fixed;
@@ -50,7 +46,7 @@
 
   .page { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; position: relative; z-index: 1; }
 
-  /* ── HERO ── */
+  /* HERO */
   .hero {
     background: var(--surface);
     border: 1px solid var(--border2);
@@ -89,9 +85,7 @@
   .hero-meta { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: var(--muted); }
   .hero-meta a { color: var(--accent); text-decoration: none; }
   .hero-meta a:hover { text-decoration: underline; }
-  .hero-meta span::before { content: '📍 '; }
-  .hero-meta .link::before { content: ''; }
-  .hero-meta .mail::before { content: ''; }
+  .hero-meta .loc::before { content: '📍 '; }
 
   .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 
@@ -107,7 +101,7 @@
   .stat-label { font-size: 14px; font-weight: 600; color: var(--text); }
   .stat-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
 
-  /* ── SECTIONS ── */
+  /* SECTIONS */
   .section { margin-bottom: 16px; animation: fadeUp 0.5s ease both; }
   .section:nth-child(2) { animation-delay: 0.07s; }
   .section:nth-child(3) { animation-delay: 0.14s; }
@@ -115,6 +109,7 @@
   .section:nth-child(5) { animation-delay: 0.28s; }
   .section:nth-child(6) { animation-delay: 0.35s; }
   .section:nth-child(7) { animation-delay: 0.42s; }
+  .section:nth-child(8) { animation-delay: 0.49s; }
 
   .section-label {
     font-size: 10px; font-weight: 600; letter-spacing: 0.12em;
@@ -129,11 +124,11 @@
     padding: 20px 24px;
   }
 
-  /* ── ABOUT ── */
+  /* ABOUT */
   .about-text { font-size: 14px; color: #444455; line-height: 1.8; }
   .about-text strong { color: var(--text); font-weight: 600; }
 
-  /* ── PROJECTS ── */
+  /* PROJECTS */
   .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 
   .repo-card {
@@ -168,7 +163,7 @@
   .repo-meta { display: flex; gap: 12px; font-size: 11px; color: var(--muted); align-items: center; }
   .lang-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; margin-right: 4px; }
 
-  /* ── TECH STACK ── */
+  /* TECH STACK */
   .stack-group { margin-bottom: 16px; }
   .stack-group:last-child { margin-bottom: 0; }
   .stack-group-label { font-size: 12px; font-weight: 500; color: var(--muted); margin-bottom: 8px; }
@@ -181,10 +176,9 @@
     border-radius: 8px; padding: 6px 12px; font-size: 12px; font-weight: 500;
     color: #333344; transition: border-color 0.2s;
   }
-  .chip:hover { border-color: rgba(255,255,255,0.25); }
   .chip-icon { font-size: 14px; }
 
-  /* ── LANGUAGES ── */
+  /* LANGUAGES */
   .lang-row { margin-bottom: 14px; }
   .lang-row:last-child { margin-bottom: 0; }
   .lang-top { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 6px; }
@@ -193,7 +187,7 @@
   .bar-track { background: var(--surface2); border-radius: 4px; height: 5px; overflow: hidden; }
   .bar-fill { height: 100%; border-radius: 4px; transition: width 1s ease; }
 
-  /* ── CONTRIBUTION ── */
+  /* CONTRIBUTION */
   .contrib-note { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
   .contrib-note span { color: var(--accent2); }
   #contrib-grid { display: flex; gap: 3px; }
@@ -202,7 +196,7 @@
   .contrib-legend { display: flex; align-items: center; gap: 5px; margin-top: 10px; font-size: 11px; color: var(--muted); }
   .legend-cell { width: 10px; height: 10px; border-radius: 2px; }
 
-  /* ── GITHUB STATS ── */
+  /* GITHUB STATS */
   .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 
   .stat-card {
@@ -217,8 +211,8 @@
   .stat-card-label { font-size: 13px; font-weight: 600; color: var(--text); }
   .stat-card-sub { font-size: 11px; color: var(--muted); margin-top: 3px; }
 
-  /* ── CONNECT ── */
-  .connect-row { display: flex; gap: 10px; }
+  /* CONNECT */
+  .connect-row { display: flex; gap: 10px; flex-wrap: wrap; }
   .connect-btn {
     display: inline-flex; align-items: center; gap: 8px;
     padding: 10px 20px; border-radius: 10px; font-size: 13px; font-weight: 600;
@@ -229,14 +223,28 @@
   .btn-gmail    { background: #ea4335; border-color: #ea4335; color: #fff; }
   .btn-github   { background: var(--surface2); border-color: var(--border2); color: var(--text); }
 
-  /* ── QUOTE ── */
+  /* QUOTE */
   .quote {
     text-align: center; font-size: 13px; color: var(--muted);
     font-style: italic; padding: 24px 0 0;
     font-family: 'JetBrains Mono', monospace;
   }
 
-  /* ── ANIM ── */
+  /* WATERMARK */
+  .readme-note {
+    background: rgba(90,80,224,0.06);
+    border: 1px dashed rgba(90,80,224,0.25);
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .readme-note strong { color: var(--accent); }
+
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(18px); }
     to   { opacity: 1; transform: translateY(0); }
@@ -244,13 +252,18 @@
 
   @media (max-width: 520px) {
     .projects-grid { grid-template-columns: 1fr; }
-    .stat-row { grid-template-columns: repeat(3,1fr); }
     .stats-grid { grid-template-columns: repeat(3,1fr); }
   }
 </style>
 </head>
 <body>
 <div class="page">
+
+  <!-- NOTE -->
+  <div class="readme-note">
+    <span style="font-size:18px;">📄</span>
+    <span>This is a <strong>visual preview</strong> of your GitHub Profile README — same style as your portfolio. Copy the raw markdown from the <strong>README.md</strong> file included in this download.</span>
+  </div>
 
   <!-- HERO -->
   <div class="hero">
@@ -265,9 +278,9 @@
           Machine Learning Engineer · Building AI systems with Python, FastAPI & LLMs · Turning raw data into real-world AI solutions
         </div>
         <div class="hero-meta">
-          <span>Pakistan</span>
-          <a href="https://linkedin.com/in/inza-iqbal" class="link" target="_blank">linkedin.com/in/inza-iqbal</a>
-          <a href="mailto:inzaiqbal54@gmail.com" class="mail" target="_blank">inzaiqbal54@gmail.com</a>
+          <span class="loc">Pakistan</span>
+          <a href="https://linkedin.com/in/inza-iqbal" target="_blank">linkedin.com/in/inza-iqbal</a>
+          <a href="mailto:inzaiqbal54@gmail.com" target="_blank">inzaiqbal54@gmail.com</a>
         </div>
       </div>
     </div>
@@ -320,7 +333,6 @@
         <div class="repo-meta">
           <span><span class="lang-dot" style="background:#3572A5;"></span>Python</span>
           <span>★ Stars</span>
-          <span>⑂ Forks</span>
         </div>
       </a>
 
@@ -334,7 +346,6 @@
         <div class="repo-meta">
           <span><span class="lang-dot" style="background:#3572A5;"></span>Python</span>
           <span>★ 1</span>
-          <span>⑂ Forks</span>
         </div>
       </a>
 
@@ -348,7 +359,6 @@
         <div class="repo-meta">
           <span><span class="lang-dot" style="background:#DA5B0B;"></span>Jupyter</span>
           <span>★ Stars</span>
-          <span>⑂ Forks</span>
         </div>
       </a>
 
@@ -487,9 +497,7 @@
   <div class="quote">"I don't just train models — I ship AI products that work in the real world."</div>
 
 </div>
-
 <script>
-  // Animate bars
   setTimeout(() => {
     document.getElementById('bar1').style.width = '75%';
     document.getElementById('bar2').style.width = '12%';
@@ -497,7 +505,6 @@
     document.getElementById('bar4').style.width = '5%';
   }, 300);
 
-  // Contribution graph
   const grid = document.getElementById('contrib-grid');
   const colors = ['#e8e8ee','#9be9a8','#40c463','#30a14e','#216e39'];
   const weeks = 22;
