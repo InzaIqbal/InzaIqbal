@@ -1,73 +1,92 @@
 <h1 align="center">Hi, I'm Inza Iqbal 👋</h1>
 
 <h3 align="center">
-  Machine Learning Engineer &nbsp;·&nbsp; Deep Learning &nbsp;·&nbsp; Model Deployment &nbsp;·&nbsp; Real-World AI Solutions
+  Machine Learning Engineer &nbsp;·&nbsp; LLM Applications &nbsp;·&nbsp; AI Agents &nbsp;·&nbsp; Full-Stack AI Deployment
 </h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=inzaiqbal&label=Profile%20views&color=0e75b6&style=flat" alt="inzaiqbal" />
-  <img src="https://img.shields.io/badge/Open%20to%20Work-2ea44f?style=flat" alt="open to work" />
+  <img src="https://komarev.com/ghpvc/?username=inzaiqbal&label=Profile%20views&color=0e75b6&style=flat" />
+  <img src="https://img.shields.io/badge/Open%20to%20Work-2ea44f?style=flat" />
+  <img src="https://img.shields.io/badge/Pakistan-🇵🇰-blue?style=flat" />
 </p>
 
 ---
 
 ### 🧑‍💻 About Me
 
-I'm a Machine Learning Engineer who enjoys building AI systems that solve real-world problems — from data preprocessing and model training to production-ready API deployment.
+I'm a Machine Learning Engineer who builds AI systems that ship to production — not just notebooks.
+From **LLM-powered scam detectors** to **multi-agent news pipelines**, I work across the full stack: data → model → API → deployment.
 
-- 🔭 Currently building: **ML models deployed as scalable REST APIs with FastAPI & Docker**
-- 🧠 Specializing in: **Machine Learning, Deep Learning & Neural Networks**
-- 🌱 Exploring: **Advanced Model Optimization & MLOps pipelines**
-- 👯 Looking to collaborate on: **impactful ML & Deep Learning projects**
-- 💬 Ask me about: **Scikit-learn, TensorFlow, PyTorch, model deployment & data pipelines**
-- 📫 Reach me at: **inzaiqbal54@gmail.com**
-- 🔗 Connect on: [LinkedIn](https://www.linkedin.com/in/inza-iqbal)
+- 🔭 Latest build: **[JobVerify AI](https://github.com/InzaIqbal/jobverify_ai)** — AI job scam detector powered by Groq LLaMA, deployed on Railway + Vercel
+- 🤖 Also built: **[AI News Aggregator](https://github.com/InzaIqbal/Ai_news-agerator)** — a multi-agent pipeline that summarises & ranks AI content daily
+- 🌱 Currently deepening: **MLOps, advanced model optimization & LLM fine-tuning**
+- 👯 Open to collaborate on: **real-world AI/ML projects & LLM applications**
+- 💬 Ask me about: **FastAPI, LLMs, multi-agent systems, model deployment**
+- 📫 Reach me: **inzaiqbal54@gmail.com**
+- 🔗 Connect: [LinkedIn](https://www.linkedin.com/in/inza-iqbal)
+
+---
+
+### 🚀 Featured Projects
+
+#### 🛡️ [JobVerify AI](https://github.com/InzaIqbal/jobverify_ai) — AI-Powered Job Scam Detector
+> Paste any job posting → get an instant trust score (0–100) with AI analysis, scam flag breakdown, and company verification
+
+- **Stack:** FastAPI · Groq LLaMA 3 · Firecrawl · React 18 · TypeScript · Tailwind · Railway · Vercel
+- **Pipeline:** Keyword Scanner → LLM Analyzer → Web Scraper → Weighted Score Engine
+- Trust score formula: `AI×50% + Keyword×30% + Website×20%`
+- Live REST API with full Swagger docs at `/docs`
+
+---
+
+#### 🤖 [AI News Aggregator](https://github.com/InzaIqbal/Ai_news-agerator) — Multi-Agent Daily AI Digest
+> Scrapes top AI blogs & YouTube channels, summarises with LLMs, ranks by your interests, delivers a daily HTML email — fully automated
+
+- **Stack:** Python · PostgreSQL · SQLAlchemy · OpenRouter API · feedparser · Jinja2 · Gmail SMTP
+- **Agents:** YouTubeScraper → BlogScraper → DigestAgent → CuratorAgent → EmailAgent
+- Sources: OpenAI, Anthropic, DeepMind, HuggingFace, LangChain blogs + 6 top AI YouTube channels
+
+---
+
+#### 🎬 [Movie Recommender](https://github.com/InzaIqbal/Task_2Movie_Recommender) — Content-Based Filtering System
+> Recommends movies using cosine similarity on the TMDB 5000 dataset, with a Streamlit web interface
+
+- **Stack:** Python · Scikit-learn · Pandas · NumPy · Streamlit · Pickle
+- Content-based filtering using TF-IDF vectorization and cosine similarity matrix
+- Model serialized as `.pkl` for fast inference
 
 ---
 
 ### 🛠️ Tech Stack
 
-**ML / AI**
+**LLM & AI**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_LLaMA-FF6B35?style=flat&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-412991?style=flat&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 
-**Deployment & Infrastructure**
+**Backend & Deployment**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 
-**Also familiar with**
+**Frontend & Tools**
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-
----
-
-### 📌 Featured Projects
-
-> ⭐ Pin these repos on your GitHub profile after creating them
-
-| Project | Description | Stack |
-|---|---|---|
-| `ml-model-api` | End-to-end ML model deployed as a production REST API | FastAPI, Docker, PostgreSQL |
-| `deep-learning-cv` | CNN-based image classifier with transfer learning (>90% accuracy) | TensorFlow, OpenCV, Python |
-| `nlp-sentiment-engine` | Transformer fine-tuned for domain-specific sentiment analysis | PyTorch, HuggingFace, Python |
-| `eda-ml-notebooks` | Real-world EDA + ML notebooks: regression, classification, clustering | Pandas, Scikit-learn, Jupyter |
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 
 ---
 
@@ -95,16 +114,16 @@ I'm a Machine Learning Engineer who enjoys building AI systems that solve real-w
 
 <p align="left">
   <a href="https://www.linkedin.com/in/inza-iqbal" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
   <a href="mailto:inzaiqbal54@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <em>"Building AI that works in the real world, not just in notebooks."</em>
+  <em>"I don't just train models — I ship AI products that work in the real world."</em>
 </p>
