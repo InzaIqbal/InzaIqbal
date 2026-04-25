@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=5a50e0&height=120&section=header&text=Inza%20Iqbal&fontSize=42&fontColor=ffffff&fontAlignY=65&desc=Machine%20Learning%20Engineer&descAlignY=85&descColor=c8c4ff&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=5a50e0&height=200&section=header&text=Inza%20Iqbal&fontSize=52&fontColor=ffffff&fontAlignY=50&desc=Machine%20Learning%20Engineer&descAlignY=68&descColor=e0deff&animation=fadeIn" width="100%"/>
 
 </div>
 
