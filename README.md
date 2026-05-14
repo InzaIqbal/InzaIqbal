@@ -1,10 +1,10 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
+# <!-- ═══════════════════════════════════════════════════════════════ -->
 <!--              INZA IQBAL — GitHub Profile README               -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=5a50e0&height=200&section=header&text=Inza%20Iqbal&fontSize=52&fontColor=ffffff&fontAlignY=50&desc=Machine%20Learning%20Engineer&descAlignY=68&descColor=e0deff&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=5a50e0&height=200&section=header&text=Inza%20Iqbal&fontSize=52&fontColor=ffffff&fontAlignY=50&desc=AI%20Developer%20%7C%20ML%20Engineer&descAlignY=68&descColor=e0deff&animation=fadeIn" width="100%"/>
 
 </div>
 
@@ -22,17 +22,23 @@
 
 </div>
 
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=InzaIqbal&style=flat-square&color=5a50e0&label=Profile+Views)
+
+</div>
+
 ---
 
 ## 〔 About Me 〕
 
-> I'm a **Machine Learning Engineer** who builds AI systems that ship to production — not just notebooks.
-> From **LLM-powered scam detectors** to **multi-agent news pipelines**, I work across the full ML stack:
+> I'm an **AI Developer & ML Engineer** who builds AI systems that ship to production — not just notebooks.
+> From **LLM-powered legal marketplaces** to **multi-agent news pipelines**, I work across the full AI stack:
 >
 > **`data` → `model` → `API` → `deployment`**
 >
-> Currently deepening expertise in **model optimization** and **MLOps**.
-> Actively looking to collaborate on impactful ML & Deep Learning projects.
+> Currently deepening expertise in **AI-assisted development**, **prompt engineering**, and **MLOps**.
+> Actively looking to collaborate on impactful AI, ML & full-stack projects.
 
 ---
 
@@ -40,6 +46,20 @@
 
 <table width="100%">
 <tr>
+<td width="50%" valign="top">
+
+### 🎓 [`zakoota-legal-app-fyp`](https://github.com/InzaIqbal/zakoota-legal-app-fyp)
+
+**Final Year Project** — AI-powered legal freelance marketplace connecting verified lawyers with clients. Features **Zing AI** chatbot (LLaMA 3.1) covering Pakistani law with **88% accuracy** across 50 legal queries.
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Groq LLaMA](https://img.shields.io/badge/Groq_LLaMA_3.1-5a50e0?style=flat-square)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+
+`Python` · `Dart` · ★ FYP 2026
+
+</td>
 <td width="50%" valign="top">
 
 ### 🔍 [`jobverify_ai`](https://github.com/InzaIqbal/jobverify_ai)
@@ -53,6 +73,8 @@ AI job scam detector — assigns a **trust score 0–100** using Groq LLaMA 3, k
 `Python` · ★ Stars
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📰 [`ai-news-aggregator`](https://github.com/InzaIqbal/Ai_news-agerator)
@@ -65,8 +87,6 @@ Multi-agent pipeline that scrapes AI blogs & YouTube, generates **LLM summaries*
 `Python` · ★ 1
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🎬 [`movie-recommender`](https://github.com/InzaIqbal/Task_2Movie_Recommender)
@@ -79,15 +99,14 @@ Content-based filtering on **TMDB 5000** dataset using TF-IDF & cosine similarit
 `Jupyter` · ★ Stars
 
 </td>
-<td width="50%" valign="top">
-
-### ＋ [More on GitHub →](https://github.com/InzaIqbal?tab=repositories)
-
-Browse all public repositories including experiments, datasets, and ongoing ML projects.
-
-</td>
 </tr>
 </table>
+
+<div align="center">
+
+### ＋ [Browse all repositories →](https://github.com/InzaIqbal?tab=repositories)
+
+</div>
 
 ---
 
