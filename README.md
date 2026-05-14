@@ -164,7 +164,7 @@ Other               █░░░░░░░░░░░░░░░░░░░
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=InzaIqbal&hide_border=true&ring=5a50e0&fire=e07a2f&currStreakLabel=1a9e6e&sideLabels=7a7a8a&background=ffffff" height="140"/>
+<img src="https://streak-stats.demolab.com/?user=InzaIqbal&hide_border=true&ring=5a50e0&fire=e07a2f&currStreakLabel=1a9e6e&sideLabels=7a7a8a&background=ffffff" height="140"/>
 
 </div>
 
