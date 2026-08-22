@@ -89,14 +89,35 @@ Multi-agent pipeline that scrapes AI blogs & YouTube, generates **LLM summaries*
 </td>
 <td width="50%" valign="top">
 
-### 🎬 [`movie-recommender`](https://github.com/InzaIqbal/Task_2Movie_Recommender)
+### 🌫️ [`Lahore-AQI-Forecasting-System`](https://github.com/InzaIqbal/Lahore-AQI-Forecasting-System)
 
-Content-based filtering on **TMDB 5000** dataset using TF-IDF & cosine similarity with a Streamlit interface.
+MLOps pipeline forecasting Lahore's air quality — automated feature, training & inference pipelines with **XGBoost**, Hopsworks Feature Store, and a live **Streamlit** dashboard. Hourly feature ingestion & daily retraining via GitHub Actions, zero manual intervention.
 
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-e07a2f?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-1a9e6e?style=flat-square&logo=pandas&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-e07a2f?style=flat-square)
+![Hopsworks](https://img.shields.io/badge/Hopsworks-5a50e0?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-`Jupyter` · ★ Stars
+`Python` · Updated Jun 5
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [`ai-outreach-automation`](https://github.com/InzaIqbal/ai-outreach-automation)
+
+AI-powered cold outreach system — automates lead sourcing, personalized message generation via **Gemini API**, and multi-step delivery pipelines using **n8n** workflows connecting Google Sheets, Gmail, and Telegram.
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_API-5a50e0?style=flat-square)
+![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)
+
+`Python` · Updated 3 weeks ago
+
+</td>
+<td width="50%" valign="top">
+
+&nbsp;
 
 </td>
 </tr>
